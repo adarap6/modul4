@@ -1,8 +1,8 @@
 
 
 .background {
-    background-image: url('images/background-image.jpg'); 
-    background: #7F58CB;   
+    background-image: url('https://www.chrisansgroup.com/images/resposive-web-design-kuwait.jpg'); 
+     
     height: 600px;
 
 }
@@ -15,7 +15,7 @@ nav li {
     display: inline;
     padding: 0 15px;
 }
-nav a {
+a {
     color: #666;
     text-decoration: none;
 }
@@ -28,5 +28,81 @@ nav p {
 }
 .header {
     text-align: center;
-    padding-top: 20%;
+    padding-top: 5%;
+}
+.header a {
+    background: #FED136;
+    padding: 20px 30px;
+    border-radius: 10%;
+    color: #fff;
+    }
+.header a:hover {
+    background: #CFA71F;
+}
+.tytul {
+    text-align: center;
+    padding-top: 50px;
+}
+.row i {
+    font-size: 50px;
+    border: 1px solid #FED136;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: auto;
+    color:  #FED136;
+    padding-top: 25px;
+    
+}
+.col-4 {
+    text-align: center;
+    
+}
+footer .social {
+    font-size: 25px;
+    background: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: -15px;
+    color:  #fff;
+    
+}
+footer a {
+    margin-right: 20px;
+}
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
+.two {
+    background: #F7F7F7; 
+}
+h1 {
+    font-size: 90px;
+    font-family: 'Inconsolata', monospace;
+    color: #FED136;
+}
+h2, h3 {
+    font-family: 'Signika', sans-serif;
+    font-size: 48px;
+    color: #FED136;
+}
+.row a:hover {
+    background: #ABA5A5;
+    
+}
+h3 {
+    color: black;
+    margin-bottom: 0px;
+}
+p {
+    font-family: 'Inconsolata', monospace;
+    font-style: italic;
+    margin-bottom: 100px;
 }
