@@ -1,8 +1,10 @@
 
-
+body {
+    margin: 0;
+}
 .background {
     background-image: url('https://www.chrisansgroup.com/images/resposive-web-design-kuwait.jpg'); 
-     
+    background-size: cover;
     height: 600px;
 
 }
@@ -43,7 +45,7 @@ nav p {
     text-align: center;
     padding-top: 50px;
 }
-.row i {
+.soc {
     font-size: 50px;
     border: 1px solid #FED136;
     border-radius: 50%;
@@ -53,6 +55,9 @@ nav p {
     color:  #FED136;
     padding-top: 25px;
     
+}
+.social {
+    padding-top: 13px;
 }
 .col-4 {
     text-align: center;
@@ -106,3 +111,19 @@ p {
     font-style: italic;
     margin-bottom: 100px;
 }
+.content {
+    background: #fff;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.col-sm-12 {
+    text-align: center;
+}
+ .col-md-4 {
+    text-align: center;
+ }
+ .col-lg-4 {
+    text-align: center;
+ }
