@@ -1,46 +1,50 @@
-
+                                      /* Global*/
 body {
     margin: 0;
 }
+
+                                       /* Tytul*/
 .background {
     background-image: url('https://www.chrisansgroup.com/images/resposive-web-design-kuwait.jpg'); 
     background-size: cover;
     height: 600px;
 
 }
+                                             /*Nacigacion*/
 nav {
     padding: 30px 15%;
     margin: 0;
     text-align: right;
 }
-nav li {
-    display: inline;
-    padding: 0 15px;
-}
-a {
-    color: #666;
-    text-decoration: none;
-}
-nav a:hover {
-color: #333;
-}
-nav p {
-    display: inline;
-    float: left;
-}
-.header {
-    text-align: center;
-    padding-top: 5%;
-}
-.header a {
-    background: #FED136;
-    padding: 20px 30px;
-    border-radius: 10%;
-    color: #fff;
+    nav li {
+        display: inline;
+        padding: 0 15px;
     }
-.header a:hover {
-    background: #CFA71F;
-}
+        a {
+            color: #666;
+            text-decoration: none;
+        }
+        nav a:hover {
+        color: #333;
+        }
+    nav p {
+        display: inline;
+        float: left;
+    }
+    .header {
+        text-align: center;
+        padding-top: 5%;
+    }
+    .header a {
+        background: #FED136;
+        padding: 20px 30px;
+        border-radius: 10%;
+        color: #fff;
+        }
+    .header a:hover {
+        background: #CFA71F;
+    }
+                                            /*Services*/
 .tytul {
     text-align: center;
     padding-top: 50px;
@@ -74,17 +78,18 @@ footer .social {
     color:  #fff;
     
 }
-footer a {
-    margin-right: 20px;
-}
 footer {
     padding-top: 50px;
     text-align: center;
 }
+    footer a {
+        margin-right: 20px;
+    }
 img {
     width: 250px;
     height: 250px;
 }
+                                                  /*Our Porfolio*/
 .two {
     background: #F7F7F7; 
 }
