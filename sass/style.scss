@@ -42,10 +42,12 @@ a {
         padding: 20px 30px;
         border-radius: 10%;
         color: #fff;
+
+        :hover {
+            background: #CFA71F;
         }
-    a:hover {
-        background: #CFA71F;
     }
+    
 } 
                                             /*Services*/
 .tytul {
